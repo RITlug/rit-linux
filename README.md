@@ -19,6 +19,13 @@ livemedia-creator --ks tigeros.ks --no-virt --resultdir /var/lmc --project Tiger
 ```
 The resulting iso will be in /var/lmc/
 
+### Build Script
+To build Fedora 25 x86_64:
+```sh
+sudo bash envsetup.sh 25 x86_64
+sudo bash build.sh 25 x86_64 1
+```
+
 ## Authors
 
 * Aidan Kahrs (Lead) <axk4545@rit.edu>
