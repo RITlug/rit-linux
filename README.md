@@ -17,6 +17,13 @@ bash make-iso.sh
 ```
 With a 3.40GHz dual core i3 CPU with hyperthreading enabled and 16GB of RAM, the build process after the initial build should take approximately 40 minutes to complete. The initial build time will vary based on specs. 
 
+### Build Script
+To build Fedora 25 x86_64:
+```sh
+sudo bash envsetup.sh 25 x86_64
+sudo bash build.sh 25 x86_64 1
+```
+
 ## Authors
 
 * Aidan Kahrs (Lead) <axk4545@rit.edu>
