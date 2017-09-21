@@ -7,7 +7,7 @@ TigerOS
 ```  
   git clone https://github.com/RITlug/TigerOS.git
 ```
-Install [mock](https://github.com/rpm-software-management/mock/wiki)
+Install [mock](https://github.com/rpm-software-management/mock/wiki) and the [anaconda-installclass-tigeros](https://tigeros.ritlug.com/packages/x86_64/) package.
 
 ### Build the ISO
 Requires current version of Fedora.x86\_64 to build.
@@ -24,6 +24,7 @@ With a 3.40GHz dual core i3 CPU with hyperthreading enabled and 16GB of RAM, the
 * Josh Bicking (Tutorials) <jhb2345@rit.edu>
 * Regina Locicero (Designer) <rtl3971@rit.edu>
 * Tim Zabel (Scripts) <tjz8659@rit.edu>
+* Christian Martin (The new guy) <find me on IRC>
 
 
 ## Tasks
