@@ -25,6 +25,7 @@ With a 3.40GHz dual core i3 CPU with hyperthreading enabled and 16GB of RAM, the
 * Regina Locicero (Designer) <rtl3971@rit.edu>
 * Tim Zabel (Scripts) <tjz8659@rit.edu>
 * Jeffery Russell (Website) <jxr8142@rit.edu>
+* Christian Martin (The new guy, build automation) (find me on IRC)
 
 
 ## Tasks
