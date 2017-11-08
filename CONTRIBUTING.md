@@ -2,9 +2,9 @@ TigerOS
 ====================
 
 ## Contributing
-- Fork this repository. 
-- Create a new branch in your fork for working on your changes.
-- Submit a pull request with your changes against the devel branch of the RITlug/TigerOS repo.
+1. Fork this repository. 
+2. Create a new branch in your fork for working on your changes.
+3. Submit a pull request with your changes against the devel branch of the RITlug/TigerOS repo.
 
 This helps prevent issues when merging your pull requests. For instructions on configuring your git environment to match with our workflow please see [here](https://help.github.com/articles/configuring-a-remote-for-a-fork/). Pull requests will be reviewed as time permits.
 
