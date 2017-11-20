@@ -11,8 +11,8 @@ Please follow the below workflow when contributing to TigerOS. This helps preven
  Pull requests will be reviewed as time permits.
 
 ### Additional Reading
-* [Configuring your Git Environment for TigerOS Development ](https://help.github.com/articles/configuring-a-remote-for-a-fork/).
-* [How Git works with GitHub](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project).
+* [Configuring your Git Environment for TigerOS Development ](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
+* [How Git works with GitHub](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project)
 
 ### Some things to keep in mind:
 * Due to this being a student run project, there may be a delay in getting a response from the developers.
