@@ -331,7 +331,7 @@ textarea {
 .jssort101 .pav .t, .jssort101 .p:hover .t{opacity:1;}
 
 .card-img-top {
-	width: auto;
-	margin: 25px auto 0 auto;
-	max-height: 250px;
+    width: auto;
+    margin: 25px auto 0 auto;
+    max-height: 250px;
 }
