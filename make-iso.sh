@@ -10,8 +10,8 @@ set -eu
 ####################################################################
 green=`tput setaf 2`
 reset=`tput sgr0`
-fedora_version=27
-arch="x86_64"
+vers=27
+#to use mock comment out lines 25, $vers and 30 and uncomment all lines beginning with mock
 echo "${green}Welcome to the TigerOS build script${reset}"
 # Check that the current user is root
 if [ $EUID != 0 ]
@@ -19,10 +19,10 @@ then
     echo "Please run this script as root (sudo $@$0)."
     exit
 fi
-#dnf install -y lorax-lmc-novirt git vim-minimal pykickstart
-#dnf install -y https://tigeros.ritlug.com/packages/$arch/anaconda-installclass-tigeros-$fedora_version-1.fc$fedora_version.$arch.rpm
+dnf install -y lorax-lmc-novirt git vim-minimal pykickstart
+dnf install -y https://builder.ritlug.com/packages/x86_64/anaconda-installclass-tigeros-$vers-1.fc$vers.x86_64.rpm
 echo "${green}Beginning build process${reset}"
 setenforce 0
-livemedia-creator --ks tigeros.ks --no-virt --resultdir /var/lmc --project TigerOS-Live --make-iso --volid TigerOS --iso-only --iso-name TigerOS.iso --releasever $fedora_version --title TigerOS-live --macboot
+livemedia-creator --ks tigeros.ks --no-virt --resultdir /var/lmc --project TigerOS-Live --make-iso --volid TigerOS --iso-only --iso-name TigerOS.iso --releasever $vers --title TigerOS-live --macboot
 echo "${green}ISO saved to $(pwd)/TigerOS.iso${reset}"
 setenforce 1
