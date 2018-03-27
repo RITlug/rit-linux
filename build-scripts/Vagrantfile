@@ -67,7 +67,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell",
     inline: "dnf update -y --refresh",
     inline: "dnf install -y lorax-lmc-novirt git vim-minimal pykickstart",
-    inline: "dnf install -y https://tigeros.ritlug.com/packages/x86_64/anaconda-installclass-tigeros-26-1.fc26.x86_64.rpm",
+    inline: "dnf install -y https://builder.ritlug.com/packages/x86_64/anaconda-installclass-tigeros-27-1.fc27.x86_64.rpm",
     inline: "git clone https://github.com/RITlug/TigerOS.git"
   # SHELL
 end
