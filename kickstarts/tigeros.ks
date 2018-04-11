@@ -385,6 +385,7 @@ EOF
 
 %end
 
+## FIXME - May not entirely work. May need to be added as an RPM update
 %post
 gsettings set org.gnome.desktop.interface clock-format 12h
 %end
@@ -431,6 +432,7 @@ rhythmbox
 rpmfusion-free-release
 scrot
 tigeros-backgrounds
+tigeros-dash-to-dock
 tigeros-ff-profile
 tigeros-logos
 tigeros-release
